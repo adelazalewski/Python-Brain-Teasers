@@ -1,2 +1,2 @@
 # Python-Brain-Teasers
-python propblems
+python problems
