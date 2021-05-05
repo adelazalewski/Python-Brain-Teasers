@@ -78,4 +78,4 @@ def mergeTwoLinkedLists(l1, l2):
     
     return startNode
 
-#[resorce:] https://stackabuse.com/sorting-and-merging-single-linked-list/#:~:text=the%20last%20article.-,Once%20you%20add%20the%20method%20to%20the%20linked%20list%2C%20create,()%20to%20sort%20the%20list.
+#[resorce]: https://stackabuse.com/sorting-and-merging-single-linked-list/#:~:text=the%20last%20article.-,Once%20you%20add%20the%20method%20to%20the%20linked%20list%2C%20create,()%20to%20sort%20the%20list.
