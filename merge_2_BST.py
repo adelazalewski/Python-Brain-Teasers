@@ -37,8 +37,7 @@
  * };
  */
 class Solution {
-public:
-    TreeNode* mergeTrees(self,TreeNode* root1, TreeNode* root2) {
+   def mergeTrees(self,root1: TreeNode, root2: TreeNode) -> TreeNode:
         #check if either tree is empty
         if not root1:
             return root2
