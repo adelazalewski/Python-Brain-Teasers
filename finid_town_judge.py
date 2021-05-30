@@ -82,3 +82,32 @@ print(find_judge([[1,3],[2,3]]))  # 3
 print(find_judge([[1,3],[2,3],[3,1]]))  # -1
 print(find_judge([[1,2],[2,3]]))   # -1
 print(find_judge([[1,3],[1,4],[2,3],[2,4],[4,3]])) # 3
+
+Adjacency Matrix Representation
+List:
+
+0: [2, 3]
+1: [2, 3]
+2: []
+3: [2]
+Matrix:
+
+  0 1 2 3
+  -------
+0|0 0 1 1
+1|0 0 1 1
+2|0 0 0 0
+3|0 0 1 0
+ 
+edge_matrix = [
+    [0, 0, 1, 1],
+    [0, 0, 1, 1],
+    [0, 0, 0, 0],
+    [0, 0, 1, 0],
+]
+ 
+# Is a node connected to another?
+# if edge_matrix[from][to] != 0:
+#     print("They're connected!")
+ 
+https://colab.research.google.com/drive/1aMM4MP9SCSu4tNXd8C3pJ30O909GJHYJ?usp=sharing#scrollTo=pdvs2MJ4a_zX
