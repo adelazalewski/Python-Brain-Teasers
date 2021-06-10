@@ -1,2 +1,2 @@
 # Python-Brain-Teasers
-python problems
+python and CS challenges
